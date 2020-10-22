@@ -1,0 +1,25 @@
+{
+  "name": "portfl",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/its-gupta-ananya/Ananya-Guptaa.git"
+  },
+  "author": "Ananya Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/its-gupta-ananya/Ananya-Guptaa/issues"
+  },
+  "homepage": "https://github.com/its-gupta-ananya/Ananya-Guptaa#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.6"
+  }
+}
