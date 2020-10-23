@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.6",
     "noty": "^3.2.0-beta"
   }
 }
