@@ -12,5 +12,6 @@ module.exports.Message = function(req,res)
     let email = req.body.email;
     let message = req.body.message;
     MessageMailer.newMessage(name,email,message);
+    req.flash('success', "Your Message sent successfully");
     res.redirect('/');
 }

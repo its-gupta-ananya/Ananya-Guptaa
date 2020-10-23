@@ -4,7 +4,8 @@
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/its-gupta-ananya/Ananya-Guptaa#readme",
   "dependencies": {
+    "connect-flash": "^0.1.1",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "nodemailer": "^6.4.14",
-    "nodemon": "^2.0.6"
+    "noty": "^3.2.0-beta"
   }
 }
